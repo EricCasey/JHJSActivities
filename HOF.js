@@ -4,6 +4,6 @@ var result = [];
     var current = cb(arr[i]);
     result.push(current);
   }
-
 console.log(result)
 }
+map(["ground", "control", "to", "major", "tom"], (elm) => { return elm.length });
